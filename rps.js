@@ -3,7 +3,7 @@ function computerPlay() {
     return choice[Math.floor(Math.random() * 3)];
 }
 
-const playerSelection = prompt('rock, papaer or scissors?','');
+const playerSelection = prompt('rock, paper or scissors?','');
 const computerSelection = computerPlay();
 
 function playRorund (playerSelection, computerSelection){
@@ -12,7 +12,7 @@ function playRorund (playerSelection, computerSelection){
             alert ('it\'s a tie!')
         } else if (computerSelection === 'paper') {
             alert ('computer wins!')
-        } else if (computerSelection === 'rock') {
+        } else if (computerSelection === 'scissors') {
             alert ('player wins!')
         }
     } else if (playerSelection === 'paper') {
